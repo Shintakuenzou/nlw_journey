@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reseta a largura de todos os elementos, fazendo com que nós tenha o controle da largura dos elementos */
+* {
+  min-width: 0;
+}
